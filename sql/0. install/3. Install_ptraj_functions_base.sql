@@ -439,7 +439,7 @@ LANGUAGE 'plpgsql' VOLATILE STRICT
 COST 100;
 
 
-CREATE OR REPLACE FUNCTION tj_append(trajectory, tpoint) RETURNS trajectory AS
+CREATE OR REPLACE FUNCTION TJ_append(trajectory, tpoint) RETURNS trajectory AS
 $BODY$
 DECLARE
 	f_trajectroy			alias for $1;
